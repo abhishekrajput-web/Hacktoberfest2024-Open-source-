@@ -1,0 +1,173 @@
+body {
+    background: #4568dc; 
+    background: -webkit-linear-gradient(
+      to right,
+      #b06ab3,
+      #4568dc
+    ); 
+    background: linear-gradient(
+      to right,
+      #b06ab3,
+      #4568dc
+    ); 
+    overflow-x: hidden;
+  }
+  
+  table {
+    margin: auto;
+    margin-top: 100px;
+    background: #cb356b; 
+    background: -webkit-linear-gradient(
+      to right,
+      #bd3f32,
+      #cb356b
+    ); 
+    background: linear-gradient(
+      to right,
+      #bd3f32,
+      #cb356b
+    ); 
+  }
+  
+  input {
+    padding: 10px 30px;
+    margin: 15px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    text-align: center;
+    font-weight: 400;
+    font-family: sans-serif;
+    border-radius: 7px;
+  }
+  
+  input:hover {
+    color: white;
+    background-color: black;
+    transition: 0.5;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px 2px seagreen;
+  }
+  
+  #display {
+    color: #fff;
+    width: 300px;
+    border-radius: 7px;
+    font-size: 35px;
+    background-color: grey;
+  }
+  
+  #display:hover {
+    background-color: royalblue;
+    box-shadow: 1px 1px 2px 2px #ff45;
+  }
+  
+  .operator {
+    color: tomato;
+  }
+  
+  .operator:hover {
+    box-shadow: 1px 1px 2px 2px rebeccapurple;
+  }
+  
+  #clear {
+    color: red;
+    background-color: black;
+  }
+  
+  #clear:hover {
+    color: white;
+    box-shadow: 1px 1px 2px 2px steelblue;
+  }
+  
+  #equal:hover {
+    color: tomato;
+    font-weight: bold;
+    box-shadow: 1px 1px 2px 2px goldenrod;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  body {
+    overflow-x: hidden;
+    animation: bg-change 25s infinite ease-in forwards;
+    transition: all 0.25s ease-in;
+    background: #fff;
+  }
+  
+  @keyframes bg-change {
+    0% {
+      background: #fff;
+    }
+  
+    20% {
+      background: #000;
+    }
+  
+    40% {
+      background: #999;
+    }
+  
+    60% {
+      background: #fff;
+    }
+  
+    80% {
+      background: #000;
+    }
+  
+    100% {
+      background: #222;
+    }
+  }
+  
+  section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .img-box {
+    width: 350px;
+    animation: rotate 30s infinite ease-in forwards alternate;
+    transition: all 0.25s ease-in;
+    margin: 30px 25px;
+    box-shadow: 0 0 10px 2px steelblue;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate3d(0, 0, 0, 0deg);
+    }
+  
+    20% {
+      transform: rotate3d(5, 4, 3, 72deg);
+    }
+  
+    40% {
+      transform: rotate3d(5, 4, 3, 216deg);
+    }
+  
+    60% {
+      transform: rotate3d(5, 4, 3, 288deg);
+    }
+  
+    80% {
+      transform: rotate3d(5, 4, 3, 360deg);
+    }
+  
+    100% {
+      transform: rotate3d(0, 0, 0, 0deg);
+    }
+  }
+  
+  .img-box img {
+    width: 100%;
+  }
+  
